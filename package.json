@@ -1,0 +1,27 @@
+{
+  "name": "getir",
+  "version": "1.0.0",
+  "description": "This is the package file of the getir restful api app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Canberk Yıldırım",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canberky/getir-restful-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/canberky/getir-restful-api/issues"
+  },
+  "homepage": "https://github.com/canberky/getir-restful-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.6.11",
+    "nodemon": "^1.19.1"
+  }
+}
