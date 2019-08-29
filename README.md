@@ -3,29 +3,6 @@
 > It is an RestFul API that uses Node.js with express framework
 
 
-
-
-
-> Sample Usage of the project with Postman
-
-**Postman**
-
-![Recordit GIF](https://recordit.co/r8iM0hwFus.gif)
-
----
-
-## Example Request Payload for Post Request
-
-```javascript
-{
-	"startDate": "2016-01-26",
-	"endDate": "2018-02-02",
-	"minCount": 2700,
-	"maxCount": 2800
-}
-
-```
-
 ---
 
 ## Installation
@@ -45,3 +22,26 @@ $ npm start
 ```
 
 ---
+
+> Sample Usage of the project with Postman
+
+## Example Request Payload for Post Request
+
+```javascript
+{
+	"startDate": "2016-01-26",
+	"endDate": "2018-02-02",
+	"minCount": 2700,
+	"maxCount": 2800
+}
+
+```
+
+---
+
+**Postman**
+
+![Recordit GIF](https://recordit.co/r8iM0hwFus.gif)
+
+---
+
