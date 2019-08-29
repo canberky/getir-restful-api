@@ -10,7 +10,7 @@
 
 **Postman**
 
-![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
+![Recordit GIF](https://recordit.co/r8iM0hwFus)
 
 ---
 
