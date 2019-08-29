@@ -23,9 +23,9 @@ $ npm start
 
 ---
 
-> Sample Usage of the project with Postman
+## Sample Usage of the project with Postman
 
-## Example Request Payload for Post Request
+> Example Request Payload for Post Request
 
 ```javascript
 {
