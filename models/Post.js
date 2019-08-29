@@ -1,18 +1,18 @@
 const mongoose = require('mongoose');
 
-const PostSchema = mongoose.Schema({
+const records = mongoose.Schema({
 	key: {
-		type: String,
-		require:true
+		type: String
+	},
+	value: {
+		type: String
 	},
 	createdAt: {
-		type: Date,
-		default: Date.now
+		type: Date
 	},
-	totalCount: {
-		type: Number,
-		require:true
+	counts: {
+		type: Array
 	}
 });
 
-module.exports = mongoose.model('Posts',PostSchema);
+module.exports = mongoose.model('records',records);
